@@ -13,12 +13,10 @@ body {
     align-items: center;
     border-radius: 10px;
     background-color: white;
-
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     width: 50%;
     min-width: 250px;
     max-width: 300px;
-    
     padding: 20px;
 }
 
@@ -63,7 +61,7 @@ form {
     transition: background-color 1s ease;
 }
 
-.input-group-submit, input[type="submit"]:hover {
-    
+.input-group-submit:hover, input[type="submit"]:hover {
+
     background-color: hsl(211, 100%, 35%); /* Darker blue on hover */
 }
