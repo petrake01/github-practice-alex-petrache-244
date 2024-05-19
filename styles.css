@@ -3,26 +3,32 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url("https://images.pexels.com/photos/751373/pexels-photo-751373.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #f0f0f0; /* Light grey background for contrast */
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between children */
     align-items: center;
     border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(196, 157, 157);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
     width: 50%;
     min-width: 250px;
     max-width: 300px;
     padding: 20px;
+    font-size: 13px;
 }
 
 form {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -31,7 +37,7 @@ form {
 
 .input-group {
     margin-bottom: 15px;
-    width: 70%;
+    width: 80%;
 }
 
 .input-group input {
@@ -43,12 +49,12 @@ form {
 }
 
 .input-group-submit {
-    width: 70%;
+    width: 80%;
 }
 
 
 .input-group-submit, input[type="submit"] {
-    background-color: #007bff;
+    background-color: #945c5c;
     color: white;
     cursor: pointer;
     width: auto;
@@ -61,7 +67,21 @@ form {
     transition: background-color 1s ease;
 }
 
+
+.forgotpass-text {
+    width: 100%;
+    margin-top: auto;
+    padding: 20px;
+}
+
 .input-group-submit:hover, input[type="submit"]:hover {
 
-    background-color: hsl(211, 100%, 35%); /* Darker blue on hover */
+    background-color: hsl(0, 63%, 34%); /* Darker blue on hover */
+}
+
+.not-member-text {
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 20px;
 }
