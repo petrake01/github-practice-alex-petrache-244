@@ -1,0 +1,124 @@
+.bg-orange {
+    background-color: orangered;
+}
+
+.btn-orange {
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active {
+    background-color: darkorange;
+    color: white;
+    border: none;
+    outline: none; /* Optional: Remove default outline */
+    
+}
+
+.blue-dot {
+    width: 8px;
+    height: 8px;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.avatar-for-each-email {
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.email-sender.unread-email,
+.email-subject.unread-email,
+.email-preview.unread-email {
+    font-weight: bold;
+}
+
+.selected-email {
+    background-color: #f0f0f0;
+}
+
+
+.email-item {
+    display: flex;
+    padding: 0.5rem 0; /* Equivalent to py-2 in Bootstrap */
+}
+
+
+.email-item:hover {
+    background-color: #f9f9f9;
+}
+
+.email-sender {
+    font-size: 13px;
+}
+
+.email-subject {
+    font-size: 12px;
+    color: #333;
+}
+
+.email-preview {
+    font-size: 12px;
+    color: #9e9d9d !important;
+}
+
+.email-time, .email-am {
+    white-space: nowrap;
+}
+
+.email-time {
+    font-size: 12px;
+    color: #1a1a1a;
+    margin-right: 4px; /* Space between time and AM/PM */
+}
+
+.email-am {
+    font-size: 12px;
+    color: #1a1a1a;
+}
+
+.d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+
+
+
+
+/* Bottom Navigation Styles */
+.bottom-nav {
+    
+    bottom: 0;
+    
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 0.5rem 0;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+
+
+.bottom-nav .col div {
+    font-size: 12px;
+}
+
+.bottom-nav .col:hover {
+    color: orangered;
+}
+
