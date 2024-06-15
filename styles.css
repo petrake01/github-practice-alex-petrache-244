@@ -1,52 +1,19 @@
-.bg-orange {
-    background-color: orangered;
-}
-
-.btn-orange {
-    background-color: orangered;
-    color: white;
-    border: none;
-}
-
-.btn-orange:hover,
-.btn-orange:focus,
-.btn-orange:active {
-    background-color: darkorange;
-    color: white;
-    border: none;
-    outline: none; /* Optional: Remove default outline */
-    
-}
-
-.blue-dot {
-    width: 8px;
-    height: 8px;
-    background-color: orangered;
-    border-radius: 50%;
-    margin-right: 5px;
-}
-
-.avatar-for-each-email {
-    width: 15px;
-    height: 15px;
-    background-color: #ccc;
-    border-radius: 50%;
-}
-
-.email-sender.unread-email,
-.email-subject.unread-email,
-.email-preview.unread-email {
-    font-weight: bold;
-}
-
-.selected-email {
-    background-color: #f0f0f0;
-}
-
-
-.email-item {
+body {
     display: flex;
-<<<<<<< HEAD
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/751373/pexels-photo-751373.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0; /* Light grey background for contrast */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
     flex-direction: column;
     justify-content: space-between; /* Distribute space between children */
     align-items: center;
@@ -57,81 +24,56 @@
     min-width: 150px;
     max-width: 500px;
     padding: 20px;
-=======
-    padding: 0.5rem 0; /* Equivalent to py-2 in Bootstrap */
-}
-
-
-.email-item:hover {
-    background-color: #f9f9f9;
-}
-
-.email-sender {
->>>>>>> 124ed0afc5b9f227a5cc8143bb124d0bb5827915
     font-size: 13px;
 }
 
-.email-subject {
-    font-size: 12px;
-    color: #333;
-}
-
-.email-preview {
-    font-size: 12px;
-    color: #9e9d9d !important;
-}
-
-.email-time, .email-am {
-    white-space: nowrap;
-}
-
-.email-time {
-    font-size: 12px;
-    color: #1a1a1a;
-    margin-right: 4px; /* Space between time and AM/PM */
-}
-
-.email-am {
-    font-size: 12px;
-    color: #1a1a1a;
-}
-
-.d-flex.align-items-center {
+form {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
+   
 }
 
-.text-end {
-    text-align: end;
+.input-group {
+    margin-bottom: 15px;
+    width: 80%;
 }
 
-.justify-content-end {
-    justify-content: flex-end;
+.input-group input {
+    border: 0.5px solid #797777;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
 }
 
-
-
-
-
-/* Bottom Navigation Styles */
-.bottom-nav {
-    
-    bottom: 0;
-    
-    background-color: #fff;
-    border-top: 1px solid #ddd;
-    padding: 0.5rem 0;
-    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
-    margin: 0;
+.input-group-submit {
+    width: 80%;
 }
 
 
-
-.bottom-nav .col div {
-    font-size: 12px;
+.input-group-submit, input[type="submit"] {
+    background-color: #945c5c;
+    color: white;
+    cursor: pointer;
+    width: auto;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 3px;
+    box-sizing: border-box;
+    outline: none;
+    transition: background-color 1s ease;
 }
 
-<<<<<<< HEAD
+
+.forgotpass-text {
+    width: 100%;
+    margin-top: auto;
+    padding: 20px;
+}
+
 .input-group-submit:hover, input[type="submit"]:hover {
 
     background-color: hsl(0, 63%, 34%); /* Darker red on hover */
@@ -143,8 +85,3 @@
     margin-top: auto;
     padding-top: 20px;
 }
-=======
-.bottom-nav .col:hover {
-    color: orangered;
-}
->>>>>>> 124ed0afc5b9f227a5cc8143bb124d0bb5827915
